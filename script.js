@@ -46,8 +46,8 @@ async function loadNews() {
      ⚠️ Replace 'YOUR_NEWSAPI_KEY' with a valid API key from https://newsapi.org
      You can also use CryptoPanic or other providers.
   */
-  const apiKey = 'YOUR_NEWSAPI_KEY';
-  if (apiKey === 'YOUR_NEWSAPI_KEY') {
+  const apiKey = '95c3402a29a0498bb22552cd5a1bb7b4';
+  if (apiKey === '95c3402a29a0498bb22552cd5a1bb7b4') {
     newsList.innerHTML = '<li>Configure your NewsAPI key in script.js to fetch news.</li>';
     return;
   }
