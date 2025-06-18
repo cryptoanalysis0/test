@@ -42,11 +42,8 @@ async function loadNews() {
   const newsList = document.getElementById('news-list');
   newsList.innerHTML = '<li>Loading news...</li>';
 
-  /* 
-     ⚠️ Replace 'YOUR_NEWSAPI_KEY' with a valid API key from https://newsapi.org
-     You can also use CryptoPanic or other providers.
-  */
-  const apiKey = '95c3402a29a0498bb22552cd5a1bb7b4';
+  const apiKey = '8d046029316d297e21a5de6ad98c7461';
+const url = https://gnews.io/api/v4/search?q=crypto&lang=en&token=${apiKey};
   if (apiKey === '') {
     newsList.innerHTML = '<li>Configure your NewsAPI key in script.js to fetch news.</li>';
     return;
