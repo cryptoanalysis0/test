@@ -47,7 +47,7 @@ async function loadNews() {
      You can also use CryptoPanic or other providers.
   */
   const apiKey = '95c3402a29a0498bb22552cd5a1bb7b4';
-  if (apiKey === '95c3402a29a0498bb22552cd5a1bb7b4') {
+  if (apiKey === '') {
     newsList.innerHTML = '<li>Configure your NewsAPI key in script.js to fetch news.</li>';
     return;
   }
