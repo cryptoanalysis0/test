@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="blue">
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -68,7 +68,7 @@
   </section>
 
   <section class="container">
-    <h2 class="mb-4">Live Chart (BNB/USDT)</h2>
+    <h2 class="mb-4">Live Chart (BTC/USDT)</h2>
     <div id="tv-chart" class="tv-widget"></div>
   </section>
 
@@ -155,7 +155,7 @@
     function loadChart() {
       new TradingView.widget({
         container_id: "tv-chart",
-        symbol: "BINANCE:BNBUSDT",
+        symbol: "BINANCE:BTCUSDT",
         interval: "D",
         autosize: true,
         theme: "dark",
